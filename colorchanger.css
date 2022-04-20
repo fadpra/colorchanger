@@ -1,0 +1,27 @@
+div {
+    position: relative;
+    top: 250px;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+}
+
+div .btn {
+    position: relative;
+    top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: darksalmon;
+    border: 5px solid black;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+div .btn:hover {
+    background: rgb(224, 120, 85);
+    cursor: pointer
+}
